@@ -1,0 +1,213 @@
+<html>
+    <head>
+        <title>NAVIGATION | FINDOC</title>
+        <link rel="icon" href="img/main.jpeg">
+        <style>
+            *{
+                margin: 0px;
+                
+            }
+            #imgtop{
+                padding: 10px;
+                width: 180px;
+                border-radius: 20px;
+            }
+            #imgtd{
+                width :200px;
+            }
+            #name{
+                text-align: center;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-size: 100px;
+                width: 1100px;
+            }
+            label{
+                font-size: 20px;
+                color: darkblue ;
+            }
+            #sign{
+                /* text-align: center; */
+                line-height: 30px;
+            }
+            #tab1{
+                background-color: rgb(174, 209, 255);
+            }
+            .nb{
+                text-align: center;
+                font-size: 35px; 
+            }
+            .link{
+                text-decoration: none;
+                color: black;
+            }
+            .nb:hover{
+                background-color: white;
+                border-radius: 20px;
+                font-weight: bolder;
+            }             
+            #t{
+                background-color: rgb(69, 147, 255);
+                height:80px; 
+                
+            }
+            #si{
+                background-color: red;
+                color: white;
+                width: 100px;
+                height: 30px;
+            }
+            f{
+                color: white;
+            }
+            .find{
+                text-align: center;
+                font-size: 50px;
+                font-weight: bold;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            .map{
+                padding: 40px 74px;
+                border: 2px black solid;
+            }
+            .f:hover{
+                background-color: white;
+                border-radius: 20px;
+                color: blue;
+                font-size: 18px;
+                font-weight: bolder;
+            }
+            #name:hover{
+              text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <table width="100%" id="tab1">
+            <tr>
+                <td id="imgtd"><img src="img/main.jpeg" alt="Icon" id="imgtop"></td>
+                <td id="name"><a href="#" style="text-decoration:none;color: blue;">FINDOC</a> </td>
+                <td style="text-align: center; " width=20%><a href="signup.html" 
+                    style="text-decoration:none ; color:black;font-weight: 900;font-size: 22px;color: white;background-color: blue;padding:50px  70px; border-radius: 300px 0px 0px 300px;"> SIGN IN | JOIN </a></td>
+
+            </tr>
+        </table>
+            
+            
+        <nav>
+        <table width="100%" id="t">
+            <tr>
+                <td class="nb"><a href="index.html" class="link">Home</a></td>
+                <td class="nb" style="background-color: white; border-radius:20px"><a href="navigation.html" class="link">Navigation</a></td>
+                <td class="nb"><a href="emergency.html" class="link">Emergency</a></td>
+                <td class="nb"><a href="aboutus.html" class="link">About Us</a></td>
+            </tr>
+        </table>
+        </nav>
+
+        <div style="background-color: rgb(255, 255, 231);">
+        
+        <br><br><br><br><br>
+        <p class="find">Find The Hospital Near You...</p><br><br>
+        <!-- <p style="padding: 20px;font-size: 20px;font-weight: 800;">Enter Hospital Name :</p>
+        <input  style=" margin: 0px 20px 20px 20px;" type="text" placeholder="Hospital Name"><input type="submit" name="Search" value="Search" id=""> -->
+
+        <center><button style="color: white;background-color: blue; border: none;border-radius: 100px;width:300px;height: 100px; font-size: 30px;">Find Hospital</button></center>
+        <br><br><br>
+
+        <table border="5px" width="100%" style="border-collapse: collapse; border: 5px black solid;">
+            <tr>
+                <td><iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112049.53121395748!2d77.03961751640624!3d28.6433105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d029633b6af21%3A0x9a67323b63bcc188!2sBLK-Max%20Super%20Speciality%20Hospital!5e0!3m2!1sen!2sin!4v1652197691590!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </td>
+                <td><iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.8753326378!2d77.04421379467658!3d28.527565044933954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce1f427d4c5fb%3A0x582d47bbf4970bc1!2sMax%20Super%20Speciality%20Hospital%2C%20Saket%20(Max%20Saket)!5e0!3m2!1sen!2sin!4v1652197758046!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </td>
+            </tr>
+            <tr>
+                <td><iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.8753326378!2d77.04421379467658!3d28.527565044933954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfcad24abc5d1%3A0x1fbebd2090ba2737!2sPatel%20Hospital%20-%20Best%20Hospital%20In%20Shakarpur%20%7C%20Best%20Hospital%20In%20Laxmi%20Nagar%20%2C%20East%20Delhi!5e0!3m2!1sen!2sin!4v1652197820060!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </td>
+                <td><iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.8753326378!2d77.04421379467658!3d28.527565044933954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d02206e9e71cf%3A0xb096542618cd68b4!2sFortis%20Hospital%2C%20Shalimar%20Bagh!5e0!3m2!1sen!2sin!4v1652197841148!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </td>
+            </tr>
+        </table>
+
+        <br><br><br><br><br>
+         <br><br><br><br><br><br>
+         
+        <table border="0" width="100%">
+            <tr>
+              <td width="30%"></td>
+              <td style="text-align: center;background-color: rgba(21, 0, 255, 0.792);" >
+                <from ><br>
+                  <label style="color: white; font-size: 25px;">For Future Updates :</label><br><br><br>
+                  <input type="email" placeholder="Enter Email" style="width: 400px; height:30px"><br><br>
+                  <input type="submit" value="Subscribe" style="width: 100px; height: 30px;"><br><br>
+                </from>
+              </td>
+              <td width="30%"></td>
+            </tr>
+        </table>
+         
+        <br><br><br><br><br><br><br><br>
+        </div>
+        <!-- footer -->
+        <footer>
+            <table border="2" style="background-color :rgb(69, 147, 255); width: 100% ;border-color: aliceblue;">
+              <tr>
+                <td width="20%" align="center">
+                  <a href="#" style="text-decoration:none ; color:white"><img src="img/main.jpeg" border="3" width="150px" 
+                    style="margin: 10px; padding: 10px; border-color: white;"></a></td>
+                <td width="10%" style="color :white; line-height: 3em; padding: 20px;"> 
+                  <a href="#" class="f" style="text-decoration:none ;padding: 20px 80px;">ABOUT FINDOC</a><br>
+                  <a href="#" class="f" style="text-decoration:none ;padding: 20px 80px;">HELP/FAQS</a><br>
+                  <a href="#" class="f" style="text-decoration:none ;padding: 20px 80px;">CAREERS</a><br>
+                  <a href="#" class="f" style="text-decoration:none ;padding: 20px 80px;">INTERNSHIPS</a>
+                </td>
+                <td align="center" width="15%"style="color :white; line-height: 3em; padding: 20px;">
+                  <a href="#" class="f" style="text-decoration:none ;padding: 20px 80px;">ADVERTISING</a> <br>
+                  <a href="#" class="f" style="text-decoration:none ;padding: 20px 80px;">DOCTORS LIST</a><br>
+                  <a href="#" class="f" style="text-decoration:none ;padding: 20px 80px;">HOSPITALS</a><br>
+                  <a href="#" class="f" style="text-decoration:none ;padding: 20px 80px;">CONTACT US</a>
+                </td>
+                <td align="center" width="20%" style="color :white; line-height: 2em; padding: 10px;">
+                  <b style="font-size: 25px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande'">FOLLOW US :</b><br><br>
+                  <a href="#"><img src="img/fbicon.jpg" width="35px" style="padding:10px"></a>
+                  <a href="#"> <img src="img/twittericon.png" width="35px" style="padding:10px"></a>
+                  <a href="#"> <img src="img/instaicon.png" width="35px" style="padding:10px"></a><br>
+                  <a href="#"> <img src="img/youtubeicon.png" width="35px" style="padding:10px"></a>
+                  <a href="#"> <img src="img/snapicon.png" width="35px" style="padding:10px"></a>
+                  <a href="#"> <img src="img/pinicon.png" width="35px" style="padding:10px"></a>
+      
+      
+                </td>
+              </tr>
+            </table>
+      
+            <table style="background-color :rgb(174, 209, 255); width: 100% ;border-color: aliceblue;">
+              <tr>
+                <td align="center" width="20%" style="color :grey; line-height: 2em; padding: 10px;">
+                  License &nbsp;&nbsp;&nbsp;&nbsp; Agreement &nbsp;&nbsp;&nbsp;&nbsp; Interest-Based Ads &nbsp;&nbsp;&nbsp;&nbsp; 
+                  Marvel Insider Terms &nbsp;&nbsp;&nbsp;&nbsp; ©2022 FINDOC
+                  <p style="color: black;">--Created by : <span style="font-size: 30px; font-weight: bold;">
+                    Akshat Jain , Abhinav Maheshvari , Faraz Khan , Siddharth Gupta
+                </span></p>
+                </td>
+              </tr>
+            </table>
+          </footer>
+
+        <script type="text/javascript" 
+          src="https://studio.alan.app/web/lib/alan_lib.min.js"></script>
+          <script>
+              var alanBtnInstance = alanBtn({
+                  key: "2f82d4afb7aacc04af5a7a77ca5e54352e956eca572e1d8b807a3e2338fdd0dc/stage",
+                  onCommand: function (commandData) {
+                      if (commandData.command === "go:back") {
+                          //call client code that will react on the received command
+                      }
+                  },
+                  rootEl: document.getElementById("alan-btn"),
+              });
+          </script>
+
+
+    </body>
+</html>
